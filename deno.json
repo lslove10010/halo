@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "start": "docker build -t halo-app . && docker run -p 80:80 halo-app"
+  }
+}
